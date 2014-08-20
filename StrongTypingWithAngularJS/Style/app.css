@@ -1,0 +1,39 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    width: 75%;
+    margin: auto;
+}
+
+div#content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: beige;
+    padding: 20px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+span {
+    font-style: italic;
+}
+
+button {
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    border-radius: 5px;
+    transition: all 1s;
+    background: #808080;
+    border: 2px solid #000;
+    color: #FFF;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+    button.animate {
+        background: #000;
+        border: 2px solid #808080;
+    }
